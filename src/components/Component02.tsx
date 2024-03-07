@@ -1,7 +1,9 @@
+import { TBlogThumbnailProps } from '@/app/types';
 import BaseContainer from './containers/BaseContainer';
+import BlogThumbnailComponent from './BlogThumbnailComponent';
 
 const Component02 = () => {
-    const data = [
+    const data: TBlogThumbnailProps[] = [
         {
             imgFolder: 'component-02',
             imgSrcSets: ['Image-01.jpg', 'Image-01@2x.jpg'],
@@ -32,35 +34,7 @@ const Component02 = () => {
             </h1>
             <div className="grid grid-cols-3 gap-6">
                 {data.map((d, k) => (
-                    <div
-                        key={k}
-                        className="flex flex-col gap-4 md:gap-8 justify-start items-start"
-                    >
-                        <div className="border-b-4 border-highlight-red">
-                            <picture>
-                                <source
-                                    media="(max-width: 320px)"
-                                    srcSet={`/images/${d.imgFolder}/${d.imgSrcSets[0]}`}
-                                />
-                                <img
-                                    src={`/images/${d.imgFolder}/${d.imgSrcSets[1]}`}
-                                    alt={`${d.imgFolder} - ${d.imgSrcSets[0]}`}
-                                />
-                            </picture>
-                        </div>
-                        <div className="flex flex-col gap-2">
-                            <h3 className="text-white text-lg">{d.title}</h3>
-                            <p className="text-description text-base font-light">
-                                {d.description}
-                            </p>
-                        </div>
-                        <a
-                            href={d.slug}
-                            className="uppercase text-white underline underline-offset-12 decoration-highlight-red tracking-wider"
-                        >
-                            Read More
-                        </a>
-                    </div>
+                    <BlogThumbnailComponent key={k} {...d} />
                 ))}
             </div>
         </BaseContainer>
