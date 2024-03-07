@@ -15,7 +15,8 @@ const config: Config = {
             },
             colors: {
                 'dark-slate-gray': '#0e1414',
-                'highlight-red': '#cf1430'
+                'highlight-red': '#cf1430',
+                description: '#5b5f5f'
             },
             textUnderlineOffset: {
                 16: '16px'

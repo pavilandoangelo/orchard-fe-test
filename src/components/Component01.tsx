@@ -1,4 +1,4 @@
-import BaseContainer from './BaseContainer';
+import BaseContainer from './containers/BaseContainer';
 
 const Component01 = () => {
     return (
