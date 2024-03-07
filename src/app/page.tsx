@@ -51,7 +51,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                        <h1 className='uppercase text-xs text-white underline underline-offset-8'>Answer Your Body's Needs</h1>
+                        <h1 className="uppercase text-xs text-white underline underline-offset-8">
+                            Answer Your Body's Needs
+                        </h1>
                     </div>
                 </div>
             </section>
