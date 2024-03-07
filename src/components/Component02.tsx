@@ -28,11 +28,11 @@ const Component02 = () => {
     ];
 
     return (
-        <BaseContainer className="flex flex-col w-full gap-8 md:gap-16">
-            <h1 className="text-white uppercase text-xl md:text-5xl font-thin text-center">
+        <BaseContainer className="flex flex-col w-full gap-8 md:gap-12 lg:gap-16">
+            <h1 className="text-white uppercase text-xl md:text-3xl lg:text-5xl font-thin text-center">
                 All the Latest from AEG
             </h1>
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 gap-16 md:gap-14">
                 {data.map((d, k) => (
                     <BlogThumbnailComponent key={k} {...d} />
                 ))}

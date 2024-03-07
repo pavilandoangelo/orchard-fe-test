@@ -2,7 +2,7 @@ import BaseContainer from './containers/BaseContainer';
 
 const Component01 = () => {
     return (
-        <BaseContainer className="grid grid-cols-3 gap-6">
+        <BaseContainer className="grid grid-flow-row-dense grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             <div>
                 <picture>
                     <source
@@ -15,7 +15,6 @@ const Component01 = () => {
                     />
                 </picture>
             </div>
-
             <div className="grid grid-rows-2 grid-flow-col gap-6">
                 <div>
                     <picture>
@@ -42,7 +41,7 @@ const Component01 = () => {
                     </picture>
                 </div>
             </div>
-            <div>
+            <div className="md:col-span-2 xl:col-auto">
                 <h1 className="uppercase text-lg md:text-2xl text-white underline underline-offset-16 font-thin">
                     Answer Your Body's Needs
                 </h1>
@@ -59,7 +58,7 @@ const Component01 = () => {
                     Be Mindful
                 </h2>
                 <p className="mt-4 text-white font-semibold text-base md:text-lg leading-6">
-                    Sourcing local or organic food is a good way to start being
+                    Sourcing local or organic fopod is a good way to start being
                     more mindful about what you're cooking and eating
                 </p>
             </div>
