@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <section className="container mx-auto">
-                <div className="grid grid-cols-3 gap-6 py-4 sm:py-8 lg:py-16 xl:py-20 2xl:py-24">
+                <div className="grid grid-cols-3 gap-6 py-4 sm:py-8 lg:py-16 xl:py-20 2xl:py-28">
                     <div className="">
                         <picture>
                             <source
