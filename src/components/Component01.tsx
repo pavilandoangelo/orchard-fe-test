@@ -52,13 +52,13 @@ const Component01 = () => {
                     be healthy, but that artificial flavourings are getting in
                     the way. This can be reversed by focusing on high-quality
                     ingredients and being mindful as your appetite guides you to
-                    consume according to your body's needs.
+                    consume according to your body&apos;s needs.
                 </p>
                 <h2 className="mt-5 md:mt-10 uppercase text-highlight-red text-base">
                     Be Mindful
                 </h2>
                 <p className="mt-4 text-white font-semibold text-base md:text-lg leading-6">
-                    Sourcing local or organic fopod is a good way to start being
+                    Sourcing local or organic food is a good way to start being
                     more mindful about what you&apos;re cooking and eating
                 </p>
             </div>
