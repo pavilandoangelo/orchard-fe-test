@@ -18,7 +18,7 @@ const config: Config = {
                 'highlight-red': '#cf1430'
             },
             textUnderlineOffset: {
-                16: '16px',
+                16: '16px'
             },
             container: {
                 center: true,

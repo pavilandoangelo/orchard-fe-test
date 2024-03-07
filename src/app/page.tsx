@@ -48,7 +48,7 @@ export default function Home() {
                         <h1 className="uppercase text-lg md:text-2xl text-white underline underline-offset-16 font-thin">
                             Answer Your Body's Needs
                         </h1>
-                        <p className='text-base md:text-lg text-white font-thin leading-6 mt-4 md:mt-8'>
+                        <p className="text-base md:text-lg text-white font-thin leading-6 mt-4 md:mt-8">
                             The way ingredients are sourced affects the way we
                             nourish our bodies. Author Mark Schatzer believes
                             our body naturally devolops an appetite for the
@@ -59,11 +59,13 @@ export default function Home() {
                             guides you to consume according to your body's
                             needs.
                         </p>
-                        <h2 className='mt-5 md:mt-10 uppercase text-highlight-red text-base'>
+                        <h2 className="mt-5 md:mt-10 uppercase text-highlight-red text-base">
                             Be Mindful
                         </h2>
-                        <p className='mt-4 text-white font-semibold text-base md:text-lg leading-6'>
-                            Sourcing local or organic food is a good way to start being more mindful about what you're cooking and eating
+                        <p className="mt-4 text-white font-semibold text-base md:text-lg leading-6">
+                            Sourcing local or organic food is a good way to
+                            start being more mindful about what you're cooking
+                            and eating
                         </p>
                     </div>
                 </div>
