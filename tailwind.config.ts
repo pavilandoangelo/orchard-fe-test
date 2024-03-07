@@ -19,6 +19,7 @@ const config: Config = {
                 description: '#5b5f5f'
             },
             textUnderlineOffset: {
+                12: '12px',
                 16: '16px'
             },
             container: {
