@@ -14,7 +14,21 @@ const config: Config = {
                     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
             },
             colors: {
-                'dark-slate-gray': '#0e1414'
+                'dark-slate-gray': '#0e1414',
+                'highlight-red': '#cf1430'
+            },
+            textUnderlineOffset: {
+                16: '16px',
+            },
+            container: {
+                center: true,
+                padding: {
+                    DEFAULT: '1rem',
+                    sm: '2rem',
+                    lg: '4rem',
+                    xl: '5rem',
+                    '2xl': '6rem'
+                }
             }
         }
     },
