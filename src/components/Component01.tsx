@@ -43,7 +43,7 @@ const Component01 = () => {
             </div>
             <div className="md:col-span-2 xl:col-auto">
                 <h1 className="uppercase text-lg md:text-2xl text-white underline underline-offset-16 font-thin">
-                    Answer Your Body's Needs
+                    Answer Your Body&apos;s Needs
                 </h1>
                 <p className="text-base md:text-lg text-white font-thin leading-6 mt-4 md:mt-8">
                     The way ingredients are sourced affects the way we nourish
@@ -59,7 +59,7 @@ const Component01 = () => {
                 </h2>
                 <p className="mt-4 text-white font-semibold text-base md:text-lg leading-6">
                     Sourcing local or organic fopod is a good way to start being
-                    more mindful about what you're cooking and eating
+                    more mindful about what you&apos;re cooking and eating
                 </p>
             </div>
         </BaseContainer>
