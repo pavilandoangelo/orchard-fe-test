@@ -65,6 +65,6 @@ const Component01 = () => {
             </div>
         </BaseContainer>
     );
-}
+};
 
 export default Component01;
