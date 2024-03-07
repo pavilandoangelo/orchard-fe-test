@@ -15,6 +15,7 @@ const BlogThumbnailComponent: FC<TBlogThumbnailProps> = (props) => {
                     <img
                         src={`/images/${imgFolder}/${imgSrcSets[1]}`}
                         alt={`${imgFolder} - ${imgSrcSets[0]}`}
+                        loading="lazy"
                     />
                 </picture>
             </div>

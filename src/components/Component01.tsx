@@ -12,6 +12,7 @@ const Component01 = () => {
                     <img
                         src="/images/component-01/Image-01@2x.jpg"
                         alt="Image 01"
+                        loading="lazy"
                     />
                 </picture>
             </div>
@@ -25,6 +26,7 @@ const Component01 = () => {
                         <img
                             src="/images/component-01/Image-02@2x.jpg"
                             alt="Image 02"
+                            loading="lazy"
                         />
                     </picture>
                 </div>
@@ -37,6 +39,7 @@ const Component01 = () => {
                         <img
                             src="/images/component-01/Image-03@2x.jpg"
                             alt="Image 02"
+                            loading="lazy"
                         />
                     </picture>
                 </div>
