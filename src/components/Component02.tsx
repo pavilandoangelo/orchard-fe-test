@@ -9,21 +9,21 @@ const Component02 = () => {
             imgSrcSets: ['Image-01.jpg', 'Image-01@2x.jpg'],
             title: 'Summer Lunch Menu By Mark Best',
             description: `AEG ambassador Mark Best's summer eats are guaranteed to help you make the most of the warmer weather and entertaining at home.`,
-            slug: 'summer-lunch-menu-by-mark-best'
+            slug: ''
         },
         {
             imgFolder: 'component-02',
             imgSrcSets: ['Image-02.jpg', 'Image-02@2x.jpg'],
             title: 'A Traditional Christmas Eve, Mark Best Style',
             description: `One of Australia's best chefs and AEG ambassador, Mark Best, shares his favourite Christmas Eve menu which is sure to impress your guests.`,
-            slug: 'a-traditional-christmas-eve-mark-best-style'
+            slug: ''
         },
         {
             imgFolder: 'component-02',
             imgSrcSets: ['Image-03.jpg', 'Image-03@2x.jpg'],
             title: 'Taking Taste Further',
             description: `This exclusive cookbook gives you all the know-how you need. We've designed it to make sure you get the most of our products - and the best out of your food.`,
-            slug: 'taking-taste-further'
+            slug: ''
         }
     ];
 
