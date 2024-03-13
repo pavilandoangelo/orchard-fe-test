@@ -29,12 +29,12 @@ const ImageModal: FC<ImageModalProps> = (props) => {
                     className="absolute top-0 right-0 z-50 cursor-pointer"
                     onClick={handleCloseModal}
                 >
-                    <FiXCircle size={32}  />
+                    <FiXCircle size={32} />
                 </button>
                 <img src={imgUrl} alt={imgUrl} width={'auto'} height={'auto'} />
             </div>
         </ClientPortal>
     );
-}
+};
 
-export default ImageModal
+export default ImageModal;
