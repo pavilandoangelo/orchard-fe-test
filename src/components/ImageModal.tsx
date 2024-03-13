@@ -23,18 +23,18 @@ const ImageModal: FC<ImageModalProps> = (props) => {
 
     return (
         <ClientPortal showModal={showModal} handleCloseModal={handleCloseModal}>
-            <div className="fixed top-0 left-0 w-screen h-screen z-40 bg-dark-slate-gray opacity-50 transition-opacity duration-300 ease-in-out"></div>
-            <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded flex flex-col box-border min-w-max w-max h-max overflow-hidden z-50 transition-opacity duration-300 ease-in-out">
+            <div className="fixed top-0 left-0 w-screen h-screen z-40 bg-dark-slate-gray opacity-80 transition-opacity duration-300 ease-in-out"></div>
+            <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded flex flex-col box-border max-w-max overflow-hidden z-50 p-4 transition-opacity duration-300 ease-in-out">
                 <button
                     className="absolute top-0 right-0 z-50 cursor-pointer"
                     onClick={handleCloseModal}
                 >
-                    <FiXCircle size={32} />
+                    <FiXCircle size={32}  />
                 </button>
-                <Image src={imgUrl} alt={imgUrl} objectFit="none" fill />
+                <img src={imgUrl} alt={imgUrl} width={'auto'} height={'auto'} />
             </div>
         </ClientPortal>
     );
-};
+}
 
-export default ImageModal;
+export default ImageModal
