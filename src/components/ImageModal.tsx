@@ -21,6 +21,8 @@ const ImageModal: FC<ImageModalProps> = (props) => {
         setShowModal(false);
     };
 
+    console.log('showModal >>> ', showModal);
+
     return (
         <ClientPortal showModal={showModal} handleCloseModal={handleCloseModal}>
             <div className="fixed top-0 left-0 w-screen h-screen z-40 bg-dark-slate-gray opacity-80 transition-opacity duration-300 ease-in-out"></div>

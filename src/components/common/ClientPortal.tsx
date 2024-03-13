@@ -38,7 +38,7 @@ const ClientPortal: FC<ClientPortalInterface> = ({
     }, [handleCloseModal]);
 
     useEffect(() => {
-        document.body.style.overflow = 'hidden';
+        document.body.style.overflow = showModal ? 'hidden' : 'unset';
 
         return (): void => {
             document.body.style.overflow = 'unset';
